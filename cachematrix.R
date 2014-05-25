@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Creating functions that would utilize chaching capability to 
+## inverse the matrix.
 
-## Write a short comment describing this function
+## This function creates a special "matrix" object that chaches its inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
         
@@ -20,7 +20,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This would compute the inverse of the matrix returned by the makeCacheMatrix
+## above. If the inverse has alrady been calculated, the "cacheSolve" should 
+## recall the inverse from chache.
 
 cacheSolve <- function(x, ...) {
      
